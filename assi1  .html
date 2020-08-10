@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta =charset="utf-8">
+<meta  name="viewport" content="width=device-width, initial-scale=1">
+<title>assignment 1</title>
+<style>
+
+	*{
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom: 5px;
+}
+
+.style{
+ width: 50%; 
+ height: 25%; 
+ margin-top: 0%; 
+ margin-left: 50%; background-color: yellow; 
+ border: 2px solid black; 
+ font-size: 30px; 
+ text-align: center;
+}
+
+div{
+	border: 3px solid black;
+	background-color: grey;
+	width: 90%;
+	height: 150px;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	font-family: helvetica;
+	color: black;
+	overflow: auto;
+
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		border: 1px solid black;
+		margin-left: 35%
+	}
+	.col-lg-1{
+		width: 8.33%;
+	}
+	.col-lg-2{
+		width: 16.66%;
+	}
+	.col-lg-3{
+		width: 25%;
+	}
+
+	@media (min-width: 640px) and (max-width: 360px) {
+		.col-md-1, .col-md-2, .col-md-6{
+		border: 1px solid black;
+		margin-left: 10%
+	}
+     .col-md-1{
+     	width: 8.33%;
+     }
+     .col-md-2{
+     	width: 16.66%;
+     }
+     .col-md-6{
+     	width: 25%;
+     }
+
+}
+	
+  
+
+</style>
+</head>
+<body>
+	<h1 style="color: black; font-size: 60px; text-align: center;">Our Menu</h1>
+<section class="row" >
+	<div class="col-lg-3 col-md-6"><h2 class="style">chicken</h2><p>lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua.lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua</p></div>
+    <div class="col-lg-3 col-md-6"><h3 class="style">beef</h3><p>lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua.lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua</p></div>
+    <div class="col-lg-3 col-md-6"><h4 class="style">sushi</h4><p>lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua.lorem ipsum sit amel consectetur adipisicing elit,do set eiusmod tempor incident ut labore et dolor magna aliqua</p></div>
+</section>
+</body>
+</html>
